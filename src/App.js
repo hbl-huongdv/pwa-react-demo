@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div class="wistia_embed wistia_async_3z5o1eujqh" style={{ height: "349px", width: "620px" }}>&nbsp;</div>
+      <div className="wistia_embed wistia_async_3z5o1eujqh" style={{ height: "349px", width: "620px" }}>&nbsp;</div>
     </div>
   );
 }
