@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <p align="center"><img width="150px" height="150px" src="https://raw.githubusercontent.com/gokulkrishh/demo-progressive-web-app/master/images/icons/android-chrome-192x192.png"></p>
 
-## Available Scripts
+# [Progressive Web Application](https://demopwa.com/)
 
-In the project directory, you can run:
+*A demo for progressive web application with features like offline, push notifications, background sync etc,*
 
-### `npm start`
+### [Live](https://demopwa.com/)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Installation
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### `Step 1` - clone the repo
+  
+```bash
+$ git clone https://github.com/gokulkrishh/demo-progressive-web-app
+```
 
-### `npm test`
+#### `Step 2` - cd in the repo
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+$ cd demo-progressive-web-app
+```
 
-### `npm run build`
+#### `Step 3` - install dependencies
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+$ npm install
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+#### `Step 4` - run application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+$ npm run start
+```
 
-### `npm run eject`
+In browser, open [http://localhost:3000](http://localhost:3000)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Main Features
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] - App Shell Architecture
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [x] - Service Worker + [Navigation Preload](https://mattto.github.io/sw/demo/navigation-preload/) ([Origin Trial](https://docs.google.com/forms/d/e/1FAIpQLSfO0_ptFl8r8G0UFhT0xhV17eabG-erUWBDiKSRDTqEZ_9ULQ/viewform?fbzx=-8349956695398695000))
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [x] - Add to Home Screen, Splash Screen, Browser Mode, Notify user if site is updated etc,
 
-## Learn More
+- [x] - Offline Support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] - Online/Offline Events
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] - Fetch API
 
-### Code Splitting
+- [x] - Push Notifications
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- [x] - Background Sync
 
-### Analyzing the Bundle Size
+- [x] - Web Share API
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Get started with PWA Development
 
-### Making a Progressive Web App
+- [Codelabs](https://pwa.tips/codelabs)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### List of Progressive Web Apps
 
-### Advanced Configuration
+- [PWA Rocks](https://pwa.rocks)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### References
 
-### Deployment
+- [Google Developer Site](https://developers.google.com/web/progressive-web-apps)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- [Web Share API](https://developers.google.com/web/updates/2016/10/navigator-share)
 
-### `npm run build` fails to minify
+- [Navigation Preload](https://developers.google.com/web/updates/2017/02/navigation-preload)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- [Awesome Meta and Manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest)
+
+#### License
+
+MIT © [Gokulakrishnan](https://github.com/gokulkrishh)
+
+<div align="center">
+  <sub>If you found a bug or some improvments, feel free to raise an issue and send a PR!</sub>
+</div>

@@ -1,32 +1,23 @@
 {
-  "name": "pwa-react-demo",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0",
-    "sw-precache": "^5.2.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && sw-precache --config=sw-precache-config.js",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "demo-pwa",
+	"description": "Demo progressive web application",
+	"version": "1.0.2",
+	"author": "https://github.com/gokulkrishh",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"node-gcm": "^1.0.2"
+	},
+	"scripts": {
+		"start": "npm run css && node server.js",
+		"css": "postcss -u autoprefixer -r css/*"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.4.3",
+		"postcss-cli": "^6.1.0"
+	},
+	"engines": {
+		"node": ">=8.11.2"
+	},
+	"license": "MIT"
 }
